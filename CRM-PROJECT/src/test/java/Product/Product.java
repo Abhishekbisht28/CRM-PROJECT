@@ -123,7 +123,7 @@ public class Product {
         } else {
             System.out.println(" Product not created. Expected: " + Name + " | Found: " + Pname);
         }
-
+        
         // Hover on logo and click Sign Out
         Actions act = new Actions(driver);
         WebElement logo = driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']"));
